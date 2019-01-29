@@ -1,0 +1,122 @@
+/* @import url(css/normailize.css) ;
+@import url(css/reset.css); */
+
+/* Presets */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #333333;
+
+}
+
+/* First block */
+
+.section {
+    padding: 20px 10%;
+}
+
+.section1 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.8;
+    margin-top: 90px;
+}
+
+.section1__1 {
+    display: block;
+}
+
+.section1__2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section2 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section2__vid,
+.section2__form {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section2__vid {}
+
+.section2__form {
+    border: 5px solid #3c3cdd;
+    padding: 20px;
+    text-align: center;
+    margin-left: 30px;
+    height: 310px;
+
+}
+
+.section2__form_head {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.section2__form_text {
+    display: block;
+    width: 300px;
+    padding: 17px;
+    border: 1px solid #333333;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #999;
+}
+
+.section2__form_btn {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #3c3cdd;
+    border: none;
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+
+}
+
+.sectionTwo {
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.sectionTwo__head {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sectionTwo_feature {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.sectionTwo_feature_item {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 50px;
+}
+
+.sectionTwo_feature_item img {
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.sectionTwo__button {
+    display: block;
+    margin: 90px auto 0;
+}

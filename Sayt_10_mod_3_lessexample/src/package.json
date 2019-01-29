@@ -1,0 +1,17 @@
+{        
+    "name": "theme-name",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "Your Name",
+   "contributes": {
+        "themes": [
+            {
+                "label": "Theme label",
+                "uiTheme": "vs-dark",
+                "path": "./themes/YourTheme_Theme.tmTheme"
+            }
+        ]
+    }
+}
